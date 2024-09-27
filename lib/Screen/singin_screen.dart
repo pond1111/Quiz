@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:incomeandexpenses/main.dart';
+import 'package:incomeandexpenses/main.dart'; // Ensure this imports HomePage
 import 'signup_screen.dart';
 
 class SigninScreen extends StatefulWidget {
@@ -26,14 +26,11 @@ class _SigninScreenState extends State<SigninScreen> {
       // If sign-in is successful, print success message
       print("Sign in successful! User: ${userCredential.user?.email}");
 
-      // Navigate to TodoScreen after successful sign-in
+      // Navigate to HomePage after successful sign-in
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => TodoScreen(
-            onThemeChanged: () {}, // Provide a default no-op function for theme changing
-            currentThemeMode: ThemeMode.light, // Default to light mode
-          ),
+          builder: (context) => HomePage(), // Navigate to HomePage
         ),
       );
 
