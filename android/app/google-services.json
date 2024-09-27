@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "378166065775",
+    "project_id": "income-and-expenses-project",
+    "storage_bucket": "income-and-expenses-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378166065775:android:394c9356c2bae38fe7eb9a",
+        "android_client_info": {
+          "package_name": "com.example.incomeandexpenses"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQh8MpeBgbdoGhseNqyZoqrV9RtG7CnA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378166065775:android:0c3fab4ab10d2636e7eb9a",
+        "android_client_info": {
+          "package_name": "com.example.myproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQh8MpeBgbdoGhseNqyZoqrV9RtG7CnA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
